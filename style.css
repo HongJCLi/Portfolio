@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6fc23f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.heading{
+  background-color: #02020c;
+  color: #efeff2;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  /* float: left;
+  width: 25%; */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #F3B40E;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.headers {
+display: flex;
+justify-content: space-around;
+}
+
+.heading2 {
+  padding: 10px;
+  background-color: rgb(235, 194, 15);
+}
+.cubings {
+ margin-right: auto;
+ margin-left: auto;
+ display: block;
+ border: 10px solid black;
+ width: 350px;
+ height: 250px;
+}
+
+.text {
+  text-align: center;
+}
+
+.Winner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.more1 {
+  padding: 5px;
+  background-color: rgba(190, 190, 10, 0.836);
+}
+
+.more4 {
+  padding: 5px;
+  background-color: rgba(190, 190, 10, 0.836);
+}
+
+.more5 {
+  padding: 5px;
+  background-color: rgba(190, 190, 10, 0.836);
+}
+.more7 {
+  padding: 5px;
+  background-color: rgba(190, 190, 10, 0.836);
+}
+.images5 {
+  display: flex;
+  justify-content: space-around;
+}
+.text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.at {
+  text-align: center;
+}
+
+.first {
+  text-align: center;
+}
+.perfec {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width:1000px;
+  border: 5px solid blue;
+}
+.class {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
